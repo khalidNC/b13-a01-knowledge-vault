@@ -52,3 +52,122 @@ nav .menu a {
     color: #000000;
     text-decoration: none;
 }
+
+.banner {
+    background-image: url(/images/hero-bg.png);
+    height: 674px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .banner-container {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.125);
+}
+
+.banner-content {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* vertical center */
+    align-items: center;       /* horizontal center */
+
+    text-align: center;
+    padding: 115px 120px 179px;
+}
+
+.banner-badge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px 8px 12px;
+    background-color: #FFFFFF;
+    color: #30B868;
+    border-radius: 10000px;
+
+}
+
+.badge-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #2eb86840;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px
+}
+.badge-dot-middle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #46916566;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.badge-dot-center {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #469165FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+
+.banner .highlight {
+    color: #30B868;
+}
+
+.banner-text {
+    font-size: 18px;
+    font-weight: 400;
+    width: 85%;
+    max-width: 1360px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.banner-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-primary {
+  background: #30B868;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-transparent {
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #FFFFFF;
+}
