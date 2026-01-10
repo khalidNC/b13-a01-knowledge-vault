@@ -351,7 +351,7 @@ nav .menu a {
 }
 
 .footer {
-    padding: 120px 0 30px;
+    padding: 120px 0 0;
     background-color: #001931;
 }
 
@@ -361,6 +361,7 @@ nav .menu a {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .footer-logo-social p {
@@ -392,4 +393,19 @@ nav .menu a {
     color: black;
 }
 
+.footer-copyright {
+    width: 85%;
+    max-width: 1360px;
+    padding: 30px 0;
+    margin: 0 auto;
+    border-top: 0.5px solid #FAFAFA;
+    
+}
 
+.footer-copyright p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    text-align: center;
+    margin-bottom: 0;
+}
