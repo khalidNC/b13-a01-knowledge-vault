@@ -51,7 +51,7 @@ nav .menu a {
 }
 
 .banner {
-    background-image: url(../images/hero-bg.png);
+    background: url(../images/hero-bg.png);
     height: 674px;
     background-position: center;
     background-size: cover;
