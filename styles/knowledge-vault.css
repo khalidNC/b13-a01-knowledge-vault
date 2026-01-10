@@ -24,7 +24,6 @@
 /* main styles */
 header {
     background-color: #FFFFFF;
-    /* padding: 16px 120px; */
 }
 
 nav {
@@ -34,7 +33,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 }
 
 nav .menu {
@@ -61,7 +59,7 @@ nav .menu a {
 
 .banner .banner-container {
     height: 100%;
-    background: rgba(0, 0, 0, 0.125);
+    background: #00000020;
 }
 
 .banner-content {
@@ -76,7 +74,6 @@ nav .menu a {
 
     text-align: center;
     padding: 115px 120px 159px 120px;
-    border: 1px solid red;
 }
 
 .banner-badge {
@@ -178,20 +175,19 @@ nav .menu a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
 }
 
 .section-header h2 {
-  font-size: 48px;
-  font-weight: bold;
-  margin-top: 48px;
-  margin-bottom: 16px;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 48px;
+    margin-bottom: 16px;
 }
 
 .section-header p {
-  font-size: 15px;
-  color: #627382;
-  margin-bottom: 44px;
+    font-size: 15px;
+    color: #627382;
+    margin-bottom: 44px;
 }
 
 /* Cards row */
@@ -201,38 +197,37 @@ nav .menu a {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
 }
 
 /* Individual card */
 .note-card {
-  max-width: 322px;
-  padding: 24px;
-  background-color: #FFFFFF;
-  box-shadow: 0px 0px 8px 0px #0000000f;
-  border-radius: 8px;
-  text-align: center;
+    max-width: 322px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #0000000f;
+    border-radius: 8px;
+    text-align: center;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Icon */
 .card-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin: 45px 107px 0;
-  background-color: #F95555;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 45px 107px 0;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-icon img {
-  width: 32px;
-  height: auto;
+    width: 32px;
+    height: auto;
 }
 
 /* Card text */
@@ -243,10 +238,10 @@ nav .menu a {
 }
 
 .note-card p {
-  font-size: 16px;
-  color: #627382;
-  line-height: 20px;
-  margin: 16px 0 45px;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin: 16px 0 45px;
 }
 
 .second-brain {
@@ -257,7 +252,6 @@ nav .menu a {
 .second-brain-container {
     width: 85%;
     max-width: 1360px;
-    border: 1px solid red;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -308,6 +302,94 @@ nav .menu a {
     align-items: center;
     margin-bottom: 16px;
     gap: 6px;
+}
+
+.ready-to-think {
+    background-color: #FFFFFF;
+    padding: 0 0 120px;
+}
+
+.ready-to-think-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+
+.ready-to-think-content {
+    margin: 0 40px 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ready-to-think-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.ready-to-think-content p {
+    font-size: 16px;
+    color: #627382;
+}
+
+.get-early-access {
+    margin: 0 40px;
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 0px 10px 20px 0px #00000026;
+}
+
+.get-early-access p {
+    font-size: 16px;
+    color: #627382;
+}
+
+.footer {
+    padding: 120px 0 30px;
+    background-color: #001931;
+}
+
+.footer-logo-social {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo-social p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-right: 107px;
+    margin-bottom: 16px;
+}
+
+.social-icon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.social-icon a {
+    width: 11.5px;
+    height: 10.75px;
+    color: black;
 }
 
 
