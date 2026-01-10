@@ -51,7 +51,7 @@ nav .menu a {
 }
 
 .banner {
-    background-image: url(images/hero-bg.png);
+    background-image: url(../images/hero-bg.png);
     height: 674px;
     background-position: center;
     background-size: cover;
@@ -69,9 +69,8 @@ nav .menu a {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;   /* vertical center */
-    align-items: center;       /* horizontal center */
-
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 115px 120px 159px 120px;
 }
